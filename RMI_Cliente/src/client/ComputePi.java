@@ -13,8 +13,7 @@ public class ComputePi {
             Compute comp = (Compute) registry.lookup(name);
             Pi task = new Pi(Integer.parseInt(args[1]));
             BigDecimal pi = comp.executeTask(task);
-//            System.out.println(pi);
-            System.out.println(4);
+            System.out.println(pi);
         } catch (Exception e) {
             System.err.println("ComputePi exception:");
             e.printStackTrace();
