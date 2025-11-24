@@ -7,9 +7,10 @@ import compute.Compute;
 
 public class ComputePi {
     public static void main(String args[]) {
+        /* 
         if (System.getSecurityManager() == null) {
             System.setSecurityManager(new SecurityManager());
-        }
+        }*/
         try {
             String name = "Compute";
             Registry registry = LocateRegistry.getRegistry(args[0]);
