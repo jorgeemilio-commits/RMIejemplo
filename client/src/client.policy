@@ -1,0 +1,3 @@
+grant codeBase "file:///C:/RMI/client/src/" {
+    permission java.security.AllPermission;
+};
